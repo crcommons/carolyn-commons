@@ -79,7 +79,7 @@ var isMobile = {
 if( !isMobile.any() )
 $(function(){
     $.stellar({
-    	  responsive: true,
+    	  // responsive: true,
     horizontalScrolling: false,
     });
 });

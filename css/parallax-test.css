@@ -1,0 +1,97 @@
+*, *:after, *:before {
+    box-sizing: border-box
+}
+body {
+    font-size: 18px;
+    color: #2D2D29;
+    /* font-family: 'Muli', sans-serif;*/
+    
+    font-family: 'Cardo', serif;
+    width: 100%;
+}
+h1, h2, h3 {
+    /*    font-family: 'Ovo', serif;*/
+    
+    font-family: 'Montserrat', sans-serif;
+}
+a:link, a:visited {
+    color: #FEDC70;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #F8F79D;
+}
+.clear-container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#navigation {
+    z-index: 10;
+    background-color: rgba(255, 255, 255, .4);
+    width: 100%;
+    margin: 0 auto;
+}
+.globe {
+    float: left;
+    padding: 1% 0 1% 1%;
+    width: 5%
+}
+.top-nav {
+    float: right;
+    margin: 1.5% 0;
+    width: 73%;
+    text-align: right;
+}
+.nav-links {
+    display: inline-block;
+    margin: 0 2%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-links:last-child {
+    padding-right: 4%;
+}
+.top-nav li a:link, .top-nav li a:visited {
+    color: #2D2D29;
+}
+.top-nav li a:hover {
+    color: #FEDC70;
+}
+.top-nav li a:active {
+    color: #F8F79D;
+}
+.home-page {
+    background-image: url('../public_html/cape_town_ocean_view_1300.jpg');
+/*    background-attachment: fixed;*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 700px;
+    position: relative;
+}
+.intro {
+    padding-top: 7em;
+    margin: 0 auto;
+    position: relative;
+}
+.intro h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0;
+}
+.intro p {
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+}
+}
+.scroll-down {
+    background-image: url('../images/down_arrow.svg');
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+.summary-page {
+    padding: 6em 0;
+}

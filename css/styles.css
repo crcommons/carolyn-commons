@@ -98,7 +98,7 @@ a:hover, a:active {
     padding: 6em 0;
 }
 .headshot {
-    background-image: url('../images/headshot.jpg');
+    background-image: url('../images/ccheadshot.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@ a:hover, a:active {
     height: 100%;
 }
 .hero-photo2 {
-    background-image: url('../images/spain_winery.jpg');
+    background-image: url('../images/spain.jpg');
     height: 800px;
     position: relative;
 }

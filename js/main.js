@@ -48,12 +48,12 @@ var $ = jQuery.noConflict();
 // //resize the height of the page based on height of window
 // $(window).resize(setPageHeight);
 
-$.stellar({
-  responsive: true,
-  hideDistantElements: false, 
-  horizontalScrolling: false,
+// $.stellar({
+//   responsive: true,
+//   hideDistantElements: false, 
+//   horizontalScrolling: false,
 
-});
+// });
 
 var isMobile = {
     Android: function() {
@@ -79,8 +79,8 @@ var isMobile = {
 if( !isMobile.any() )
 $(function(){
     $.stellar({
+    	  responsive: true,
     horizontalScrolling: false,
-    verticalOffset: 50
     });
 });
 

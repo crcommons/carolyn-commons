@@ -17,6 +17,7 @@ $(document).ready(function(){
   $('.jobs').slick({
       autoplay: true,
        autoplaySpeed: 2000,
+       //autoplay slick
   });
 });
 

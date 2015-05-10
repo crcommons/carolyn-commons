@@ -74,7 +74,7 @@ a:hover, a:active {
     position: relative;
 }
 .intro {
-    padding-top: 10em;
+    padding-top: 7em;
     margin: 0 auto;
     position: relative;
 
@@ -128,7 +128,7 @@ a:hover, a:active {
     background-image: url('../images/india_stone.jpg');
 }
 .hero-photo {
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

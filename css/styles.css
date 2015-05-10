@@ -6,14 +6,16 @@ body {
     font-size: 18px;
     color: #2D2D29;
     /* font-family: 'Muli', sans-serif;*/
-    
-    font-family: 'Cardo', serif;
+      font-family: "adobe-garamond-pro",sans-serif;
+/*    
+    font-family: 'Cardo', serif;*/
     width: 100%;
 }
 h1, h2, h3 {
     /*    font-family: 'Ovo', serif;*/
+      font-family: "europa",sans-serif;
     
-    font-family: 'Montserrat', sans-serif;
+/*    font-family: 'Montserrat', sans-serif;*/
 }
 a:link, a:visited {
     color: #FEDC70;
